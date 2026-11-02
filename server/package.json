@@ -1,0 +1,26 @@
+{
+  "name": "safety-timer-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "安全员工作计时网站 · 后端（Node22 + Express + better-sqlite3）",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "node scripts/e2e.mjs",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.0",
+    "vitest": "^2.1.9"
+  }
+}

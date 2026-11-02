@@ -1,0 +1,6 @@
+{
+  "rows": [
+    { "vin": "LS6BME2PXSA748586", "org": "中汽创智", "supplier": "贵州宽凳" },
+    { "vin": "LS6CME124TM001530", "org": "新组织A", "supplier": "新供应商B", "station": "工位C" }
+  ]
+}

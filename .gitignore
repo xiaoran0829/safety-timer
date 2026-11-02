@@ -1,0 +1,25 @@
+# deps / build
+node_modules/
+dist/
+web/dist/
+server/public/
+
+# db / runtime
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# secrets
+.write-token
+*.env
+.env*
+
+# os
+.DS_Store
+
+# 证据文件（含 .log）需入库
+!docs/evidence/**
+
+# 证据目录（CR-09C 等）需入库（补充：目录名非 evidence，原 !docs/evidence/** 未覆盖）
+!docs/evidence-cr09c/**
