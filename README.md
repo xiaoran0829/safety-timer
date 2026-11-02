@@ -119,4 +119,4 @@ npm test            # vitest run
 
 ## 许可
 
-内部业务系统，保留所有权利（All rights reserved）。
+[MIT](LICENSE)。欢迎 Issue / PR；生产使用请自行替换默认口令并做好数据备份。
